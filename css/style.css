@@ -5,3 +5,8 @@
   box-sizing: border-box;
   list-style: none;
 }
+
+body {
+  background: url(../img/background.jpg) no-repeat;
+  background: cover;
+}
