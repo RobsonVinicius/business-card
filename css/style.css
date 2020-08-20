@@ -10,3 +10,10 @@ body {
   background: url(../img/background.jpg) no-repeat;
   background: cover;
 }
+
+.business-card {
+  width: 500px;
+  height: 280px;
+  background: white;
+}
+
