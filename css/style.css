@@ -7,7 +7,8 @@
 } 
 
 body {
-  background: url(../img/background.jpg) repeat;  
+  /* background: url(../img/background.jpg) repeat;   */
+  background: #16223e;
 }
 
 .business-card {
@@ -23,13 +24,15 @@ body {
 }
 
 .front, .back {
-  width: 100%;
+  width: 95%;
   height: 100%;  
   border-radius: 2px;
   overflow: hidden;
   position: absolute;
   backface-visibility: hidden;
   transition: transform 0.5s linear;
+  border-radius: .5rem;
+  border: 1px solid white;
 }
 
 .front {
@@ -63,7 +66,7 @@ body {
 }
 
 .back {
-  background: rgba(0, 0, 0, .95);
+  background: #151c2d;
   display: flex;
   align-items: center;
   justify-content: center;  
