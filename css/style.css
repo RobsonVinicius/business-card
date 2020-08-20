@@ -33,7 +33,7 @@ body {
 }
 
 .front {
-  background: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, .95);
   padding: 40px;
   transform: perspective(600px) rotateX(180deg)
 }
@@ -44,6 +44,7 @@ body {
   right: 0;
 }
 
+/* Triângulo Maior */
 .front::before {
   background: #2c3e50;
   width: 80px;
@@ -52,6 +53,7 @@ body {
   clip-path: polygon(0 100%, 40% 0, 100% 100%);
 }
 
+/* Triângulo Menor */
 .front::after {
   background: #34494e;
   width: 100px;
@@ -61,7 +63,7 @@ body {
 }
 
 .back {
-  background: rgba(0, 0, 0, .93);
+  background: rgba(0, 0, 0, .95);
   display: flex;
   align-items: center;
   justify-content: center;  
@@ -102,12 +104,22 @@ body {
   margin-right: 6px;  
 }
 
-
-.business-card:hover .front {
+.business-card-click .front {
   transform: perspective(600px) rotateY(0deg);
 }
 
-.business-card:hover .back {
+.business-card-click .back {
   transform: perspective(600px) rotateX(-180deg)
 }
 
+
+/* Efeito virar o cartão com hover 
+
+  .business-card:hover .front {
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  .business-card:hover .back {
+    transform: perspective(600px) rotateX(-180deg)
+  }
+*/
