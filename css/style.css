@@ -130,3 +130,53 @@ body {
     transform: perspective(600px) rotateX(-180deg)
   }
 */
+
+
+@media (max-width: 425px) {
+  .front, .back {
+    width: 61%;
+    height: 60%;
+    left: 98px;
+  }
+
+  .back img {
+    width: 170px;
+  }
+
+  .front {
+    padding: 21px;
+  }
+
+  .front::before {
+    width: 46px;
+    height: 74px
+  }
+
+  .front::after {
+    width: 59px;
+  }
+   
+  .front h2 {
+    font-size: .95rem;
+  }
+
+  .front span {
+    font-size: .65rem;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+  }
+
+  .front .contact-info li {
+    font-size: .75rem;
+    margin: 5px 0;
+  }
+
+  .front .contact-info li i {
+    width: 20px;
+    height: 20px;
+  }
+
+  .front .contact-info li i::before {
+    font-size: .75rem;
+  }
+}
