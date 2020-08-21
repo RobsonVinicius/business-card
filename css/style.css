@@ -8,7 +8,7 @@
 
 body {
   /* background: url(../img/background.jpg) repeat;   */
-  background: #192734;
+  background: #192734; /* #16223e */
 }
 
 .business-card {
@@ -32,7 +32,8 @@ body {
   backface-visibility: hidden;
   transition: transform 0.5s linear;
   border-radius: .5rem;
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  box-shadow: 0px 0px 10px cornflowerblue;
   cursor: pointer;
 }
 
@@ -67,7 +68,7 @@ body {
 }
 
 .back {
-  background: #151c2d;
+  background: #1d2f40;
   display: flex;
   align-items: center;
   justify-content: center;  
