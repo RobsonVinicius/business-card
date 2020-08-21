@@ -8,7 +8,7 @@
 
 body {
   /* background: url(../img/background.jpg) repeat;   */
-  background: #16223e;
+  background: #192734;
 }
 
 .business-card {
@@ -33,6 +33,7 @@ body {
   transition: transform 0.5s linear;
   border-radius: .5rem;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .front {
